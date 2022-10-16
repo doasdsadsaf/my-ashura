@@ -27,6 +27,9 @@
         <com.alibaba.cloud>2.2.9.RELEASE</com.alibaba.cloud>
         <spring.boot>2.3.12.RELEASE</spring.boot>
     </properties>
+    <modules>
+        <module>ashura-web</module>
+    </modules>
 
     <dependencyManagement>
         <dependencies>
@@ -135,6 +138,8 @@
                 <artifactId>logback-gelf</artifactId>
                 <version>3.0.0</version>
             </dependency>
+
+
         </dependencies>
 
 
