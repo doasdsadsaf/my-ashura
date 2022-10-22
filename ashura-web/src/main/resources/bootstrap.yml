@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ashura-web
+  profiles:
+    active: public
+  cloud:
+    nacos:
+      server-addr: 124.223.2.193:8848
+      config:
+        file-extension: ymal #文件后缀名
